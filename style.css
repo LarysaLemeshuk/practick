@@ -13,6 +13,7 @@ h2 {
 p {
   color: rgb(204, 8, 8);
   text-align: justify;
+
 }
 a {
   color: pink;
@@ -25,5 +26,7 @@ a {
   border: 3px solid goldenrod;
   box-sizing: border-box;
   padding: 10px;
-  margin-left: 50px;
+  margin: 15px;
 }
+div {display: inline;}
+span{display: block;}
