@@ -12,6 +12,12 @@
     color: black;
 
 }
-.page-link:focus {border: green
+.page-link:focus {border: 5px solid #c74d06
 
+}
+.page-link:active { background-color: brown;
+    color: azure;
+}
+input:focus {
+    color: aqua;
 }
