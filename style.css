@@ -1,14 +1,14 @@
-div {
-    width: 100px;
-    height: 100px;
-    background-color: bisque;
-    color: blueviolet;
-    font-size: 40px;
-    text-align: center;
-
+.link-list li {
+  display: inline-block;
+  margin-top: 30px;
 }
+.page-link {
+  text-decoration: none;
+  background-color: rgb(194, 230, 243);
+  padding: 10px;
+  color: blueviolet;
+}
+.page-link:hover { background-color: aquamarine;
+    color: black;
 
-div:hover {
-    background-color: aqua;
-    color: brown;
 }
