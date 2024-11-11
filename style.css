@@ -1,32 +1,17 @@
-h1 {
-  color: rgb(65, 5, 143);
-  text-transform: lowercase;
-  font-size: 30px;
-  line-height: 2em;
+table {
+  border: 2px solid rebeccapurple;
+  border-collapse: collapse;
 }
-h2 {
-  color: rgb(13, 111, 31);
-  text-transform: lowercase;
-  font-size: 30px;
-  line-height: 3em;
+td,
+th {
+  border: 1px solid rebeccapurple;
 }
-p {
-  color: rgb(204, 8, 8);
-  text-align: justify;
-
+caption {
+    color: rgb(3, 73, 73);
+    font-weight: bold;
+    font-size: 10;
+    font-family: cursive;
 }
-a {
-  color: pink;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 50px;
+.text-center {
+    text-align: center;
 }
-.image {
-  width: 100px;
-  border: 3px solid goldenrod;
-  box-sizing: border-box;
-  padding: 10px;
-  margin: 15px;
-}
-div {display: inline;}
-span{display: block;}
