@@ -1,7 +1,14 @@
-table {
-    border: 2px solid red;
-    border-collapse: collapse;
+div {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    color: blueviolet;
+    font-size: 40px;
+    text-align: center;
+
 }
-td, th {
-    border: 1px solid red
+
+div:hover {
+    background-color: aqua;
+    color: brown;
 }
