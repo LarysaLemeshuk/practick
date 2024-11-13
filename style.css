@@ -8,17 +8,24 @@
   padding: 10px;
   color: blueviolet;
 }
-.page-link:hover { background-color: aquamarine;
-    color: black;
-
+.page-link:hover {
+  background-color: aquamarine;
+  color: black;
 }
-.page-link:focus {border: 5px solid #c74d06
-
+.page-link:focus {
+  border: 5px solid #c74d06;
 }
-.page-link:active { background-color: brown;
-    color: azure;
+.page-link:active {
+  background-color: brown;
+  color: azure;
 }
 input:focus {
-    color: aqua;
+  color: aqua;
 }
-/*  */
+
+li:first-child {
+  color: blue;
+}
+li:last-child {color: green}
+/* first-child-застосовує правила до першого елемента вкладеного в батьківський елемент*/
+/* last-child - працює до останього елемента */
