@@ -22,10 +22,38 @@
 input:focus {
   color: aqua;
 }
+/* задача- (an + b)вибриати кожний третій елемент починаючи з пешого */
 
-li:first-child {
+li :nth-last-child(3n+1) {
+  color: blue;
+  background-color: aqua;
+}
+/* Задача обрати тільки перші 5 елементів*/
+/* li:nth-child(-n+5) {color:blueviolet;} */
+
+/* задача -обрати останні три елементи */
+/* li:nth-child(n + 4) {
+  color: blue;
+  background-color: aqua;
+} */
+
+/* li :nth-child(5){
+    color:blue;
+    background-color: aqua;
+} */
+/* li:nth-child(odd) {
+    color: orange;
+    background-color: bisque;
+}
+    
+
+li:nth-child(even) {
+    color: orangered;
+    background-color:  blanchedalmond;
+} */
+/* li:first-child {
   color: blue;
 }
-li:last-child {color: green}
+li:last-child {color: green} */
 /* first-child-застосовує правила до першого елемента вкладеного в батьківський елемент*/
 /* last-child - працює до останього елемента */
