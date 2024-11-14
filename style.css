@@ -1,59 +1,24 @@
-.link-list li {
-  display: inline-block;
-  margin-top: 30px;
+div {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
 }
-.page-link {
-  text-decoration: none;
-  background-color: rgb(194, 230, 243);
-  padding: 10px;
-  color: blueviolet;
+div:nth-child(odd) {
+  background-color: red;
 }
-.page-link:hover {
-  background-color: aquamarine;
-  color: black;
+div:nth-child(even) {
+  background-color:  green;
 }
-.page-link:focus {
-  border: 5px solid #c74d06;
+div:nth-child(3n) {
+ background-color:  blue;
 }
-.page-link:active {
-  background-color: brown;
-  color: azure;
-}
-input:focus {
-  color: aqua;
-}
-/* задача- (an + b)вибриати кожний третій елемент починаючи з пешого */
 
-li :nth-last-child(3n+1) {
-  color: blue;
-  background-color: aqua;
-}
-/* Задача обрати тільки перші 5 елементів*/
-/* li:nth-child(-n+5) {color:blueviolet;} */
-
-/* задача -обрати останні три елементи */
-/* li:nth-child(n + 4) {
-  color: blue;
-  background-color: aqua;
-} */
-
-/* li :nth-child(5){
-    color:blue;
-    background-color: aqua;
-} */
-/* li:nth-child(odd) {
-    color: orange;
-    background-color: bisque;
-}
-    
-
-li:nth-child(even) {
-    color: orangered;
-    background-color:  blanchedalmond;
-} */
-/* li:first-child {
-  color: blue;
-}
-li:last-child {color: green} */
-/* first-child-застосовує правила до першого елемента вкладеного в батьківський елемент*/
-/* last-child - працює до останього елемента */
+/* зробити такий коліртла ля квадратів
+1- червоний
+2- зелений
+3- синій
+4- зелений
+5-червоний
+6- синій
+7- червоний
+8-зелений */
