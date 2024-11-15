@@ -1,8 +1,32 @@
-.paragraph {
-  /* position: relative; */
-  /* відносне позиціонування */
-  /* margin-left: 50px; */
+.container {
+  background-color: lime;
+  height: 800px;
+  width: 80%;
+  margin: 0 auto;
+}
+.wrapper {
+  background-color: dodgerblue;
+  width: 80%;
+  height: 800px;
+}
+.inner {
+  text-align: center;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  background-color: forestgreen;
+  border: 1px solid black;
+}
+.div1 {
+}
+.div2 {
   position: relative;
-  left: 50px;
-  top: 50px;
+  top: 10px;
+  left: 10px;
+}
+.div3 {
+  position: fixed;
+  top: 0;
+}
+.div4 {
 }
