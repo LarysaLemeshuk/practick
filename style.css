@@ -1,4 +1,4 @@
-.container {
+/* .container {
   background-color: lime;
   height: 800px;
   width: 80%;
@@ -14,19 +14,64 @@
   font-size: 40px;
   width: 80px;
   height: 80px;
-  background-color: forestgreen;
+
   border: 1px solid black;
 }
 .div1 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #042727;
 }
 .div2 {
-  position: relative;
-  top: 10px;
-  left: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: aqua;
 }
 .div3 {
   position: fixed;
+  left: 0;
   top: 0;
+  background-color: blueviolet;
 }
 .div4 {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgb(64, 44, 83); */
+
+/* relative(відносне позиціонування) - коли ми позиціонуємось відносно місця в нормальному потоці
+fixed (фіксоване позиціонування) - коли ми позиціонуємось відносно вюпортаю При цьому елемент виривається з потоку*/
+.container {
+    background-color: bisque;
+    height: 800px;
+    width: 80%;
+   margin: 0% auto;
+}
+.wrapper {
+    background-color: aquamarine;
+    width: 80%;
+    height: 800px;
+}
+.inner {
+    text-align: center;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid orange;
+    background-color: azure;
+}
+.div1 {
+    position: absolute;
+
+}
+.div2 {
+
+}
+.div3 {
+    
+}
+.div4 {
+    
 }
