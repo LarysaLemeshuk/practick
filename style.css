@@ -1,6 +1,8 @@
 p {
     color: rgb(235, 6, 197);
+    cursor: crosshair;
 }
-p::first-line { background-color: aquamarine;
+p::selection { background-color: rgb(84, 91, 239);
+color: azure;
 
 }
