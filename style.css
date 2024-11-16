@@ -1,77 +1,62 @@
-/* .container {
-  background-color: lime;
-  height: 800px;
-  width: 80%;
-  margin: 0 auto;
+.nav-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
 }
-.wrapper {
-  background-color: dodgerblue;
-  width: 80%;
-  height: 800px;
+.list-item {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  background-color: rgb(235, 157, 129);
 }
-.inner {
-  text-align: center;
-  font-size: 40px;
-  width: 80px;
-  height: 80px;
-
-  border: 1px solid black;
+.link {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
 }
-.div1 {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  background-color: #042727;
+.sab-nav-list {
+  position: absolute;
+  top: 63px;
+  left: -35px;
+  display: block;
+  width: 150px;
 }
-.div2 {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: aqua;
+.sab-list-item {
+  background-color: rgb(235, 157, 129);
+  padding: 20px;
+  display: none;
 }
-.div3 {
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color: blueviolet;
+.list-item:hover .sab-list-item {
+  display: block;
 }
-.div4 {
-  position: fixed;
-  right: 0;
-  top: 0;
-  background-color: rgb(64, 44, 83); */
-
-/* relative(відносне позиціонування) - коли ми позиціонуємось відносно місця в нормальному потоці
-fixed (фіксоване позиціонування) - коли ми позиціонуємось відносно вюпортаю При цьому елемент виривається з потоку*/
-.container {
-    background-color: bisque;
-    height: 800px;
-    width: 80%;
-   margin: 0% auto;
+.sab-sab-nav-list {
+  position: absolute;
+  width: 150px;
+  top: 129px;
+  left: 150px;
 }
-.wrapper {
-    background-color: aquamarine;
-    width: 80%;
-    height: 800px;
+.sab-sab-list-item {
+  display: none;
+  padding: 20px;
+  background-color: rgb(235, 157, 129);
 }
-.inner {
-    text-align: center;
-    font-size: 40px;
-    width: 80px;
-    height: 80px;
-    border: 1px solid orange;
-    background-color: azure;
+.sab-list-item:hover .sab-sab-list-item {
+  display: block;
 }
-.div1 {
-    position: absolute;
-
+.sab-sab-sab-nav-list {
+  position: absolute;
+  width: 150px;
+  top: 129px;
+  left: 150px;
 }
-.div2 {
-
+.sab-sab-sab-list-item {
+  display: none;
+  padding: 20px;
+  background-color: rgb(235, 157, 129);
 }
-.div3 {
-    
+.sab-sab-list-item:hover .sab-sab-sab-list-item {
+  display: block;
 }
-.div4 {
-    
+.sab-list-item:hover, .sab-sab-list-item:hover, .sab-sab-sab-list-item:hover {
+    background-color: rgb(106, 72, 60);
 }
