@@ -1,8 +1,34 @@
 p {
-    color: rgb(235, 6, 197);
-    cursor: crosshair;
+  position: relative;
+  color: rgb(235, 6, 197);
+  font-size: 20px;
+  border: 1px solid rgb(251, 101, 0);
 }
-p::selection { background-color: rgb(84, 91, 239);
-color: azure;
-
+p::before {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: brown;
+  background-color: bisque;
+  width: 20px;
+  height: 20px;
+  content: "A";
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  opacity: 0,5;
+}
+p::after {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+  color: brown;
+  background-color: bisque;
+  width: 20px;
+  height: 20px;
+  content: "A";
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  opacity: 0,5;
 }
