@@ -7,18 +7,37 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <form class="form">
-      <h2>Sign In</h2>
-      <!-- 1 спосіб: id -->
-      <label for="email-form">Enter your email</label>
-      <input type="text" placeholder="Enter your email"  autofocus id="email-form"/>
-      <!-- 2 спосіб: вкладення input в lable -->
-      <label for="">nter your password
-        <input type="password"  placeholder="Enter your password"/>
+    <form>
+      <label>
+        Імя
+        <input type="text" name="username" placeholder="Вадим" autofocus />
       </label>
-      
-      <button type="submit">Sign In</button>
-      <button type="reset">Reset</button>
+      <label>
+        Електронна пошта
+        <input type="email" name="email" placeholder="example@email.com" />
+      </label>
+      <label>
+        Пароль
+        <input type="password" name="password" placeholder="qwerty1234" />
+      </label>
+      <label>
+        Телефон
+        <input type="text" name="phone" placeholder="08887777777" />
+      </label>
+      <label>
+        Адреса
+        <input
+          type="text"
+          name="address"
+          placeholder="вул. Лесі Українки ..."
+        />
+      </label>
+      <label>
+        Дата народження
+        <input type="text" name="birthdate" placeholder="12.12.1234" />
+      </label>
+      <button type="submit">Зареєструватися</button>
+      <button type="reset">Очистити</button>
     </form>
   </body>
 </html>
