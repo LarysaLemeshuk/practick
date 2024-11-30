@@ -14,11 +14,11 @@
       </label>
       <label>
         Електронна пошта
-        <input type="email" name="email" placeholder="example@email.com" />
+        <input type="text" name="email" placeholder="example@email.com" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"/>
       </label>
       <label>
         Пароль
-        <input type="password" name="password" placeholder="qwerty1234" />
+        <input type="password" name="password" placeholder="qwerty1234" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" />
       </label>
       <label>
         Телефон
