@@ -10,15 +10,31 @@
     <form>
       <label>
         Імя
-        <input type="text" name="username" placeholder="Вадим" autofocus />
+        <input
+          required
+          type="text"
+          name="username"
+          placeholder="Вадим"
+          autofocus
+        />
       </label>
-      <label>
+      <label class="required">
         Електронна пошта
-        <input type="text" name="email" placeholder="example@email.com" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"/>
+        <input
+          type="text"
+          name="email"
+          placeholder="example@email.com"
+          pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
+        />
       </label>
       <label>
         Пароль
-        <input type="password" name="password" placeholder="qwerty1234" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" />
+        <input
+          type="password"
+          name="password"
+          placeholder="qwerty1234"
+          pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$"
+        />
       </label>
       <label>
         Телефон
@@ -34,8 +50,50 @@
       </label>
       <label>
         Дата народження
-        <input type="text" name="birthdate" placeholder="12.12.1234" />
+        <input type="date" name="birthdate" placeholder="12.12.1234" />
       </label>
+      <fieldset>
+        <legend>Choose your ender</legend>
+        <label>
+          <input type="radio" value="Male" name="gender" checked />
+          Male
+        </label>
+        <label>
+          <input type="radio" value="Female" name="gender" />
+          Female
+        </label>
+        <label>
+          <input type="radio" value="Nonbinary" name="gender" />
+          Nonbinary
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Choose your avatar</legend>
+        <input name="avatar" type="file" multiple />
+      </fieldset>
+      <fieldset>
+        <legend>Choose your city</legend>
+        <select name="city">
+          <option value="Kyiv">Київ</option>
+          <option value="Kovel">Ковель</option>
+        
+          <option value="Kharkiv">Харків</option>
+        <optgroup label="Дніпропетровська область">
+          <option value="Dnipro">Дніпро</option>
+          <option value="Kryvyi-Rig">Кривий ріг</option>
+        </optgroup>
+        </select>
+      </fieldset>
+
+      <label class="required">
+        <input required type="checkbox" name="is-agree" checked />
+        Чи погоджуєтесь ви з нашою політикою?
+      </label>
+      <label>
+        <input type="checkbox" name="is-subscribed" checked />
+        Чи хочети ви отримувати від нас новини
+      </label>
+
       <button type="submit">Зареєструватися</button>
       <button type="reset">Очистити</button>
     </form>
