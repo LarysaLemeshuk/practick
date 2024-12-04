@@ -1,13 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
   font-size: 16px;
 }
 ul {
-  font-size: 24px;
+  font-size: 0px;
 }
 li {
   display: inline-block;
@@ -16,3 +16,15 @@ li {
   font-size: 2rem;
 }
 
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  li {
+    display: block;
+    background-color: rgb(235, 138, 12);
+  }
+}
+@media screen and (max-width: 200px) {
+  li {
+    display: block;
+    background-color: rgb(43, 121, 231);
+  }
+}
